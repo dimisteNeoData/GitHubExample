@@ -2,5 +2,5 @@
 
 - Entrada (tablas NeoCore)
   <p>
-	`Registrar pesada - insertar posibles coProductos en Neo_deshuese de acuerdo con el check "Emitir etiqueta orden" en: Sala - Configuración - Entrada`  
+	- Registrar pesada - insertar posibles coProductos en Neo_deshuese de acuerdo con el check "Emitir etiqueta orden" en: Sala - Configuración - Entrada  
   </p>
