@@ -8,3 +8,8 @@
 	<li>Entrada - Imprimir etiqueta Ristra coProductos - añadir parámetros: usuario, terminal</li>
 	</ol>
 
+ - Salida
+<ol>
+ 	<li>PESADA - al hacer una pesada si esta en el rango de peso cambiar un producto por otro si esta habilitado la opcion producto generico y la formula tiene productos genericos</li>
+	</ol>
+
