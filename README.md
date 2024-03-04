@@ -29,17 +29,17 @@
 	<li>si btn "Emitir etiqueta orden" visible y no tenemos la etiqueta de Deshuese (coProductos) configurada => colorear el boton de color rojo</li>
 	</ol>
 
-    ### Salida
+### Salida
 <ol>
  	<li>btn "Configuración Etiquta" - check emitir etiqueta - relacionarlo con las configuraciones generales</li>
 	</ol>
 
-    ### Producir
+### Producir
 <ol>
  	<li>btn "Configuración Etiquta" - check emitir etiqueta - relacionarlo con las configuraciones generales</li>
 	</ol>
 
-    ### Asociar Caja
+### Asociar Caja
 <ol>
  	<li>productos entrados - botón "Cambiar producto"</li>
  	<li>productos entrados - pantalla "Acciones de Productos"</li>
