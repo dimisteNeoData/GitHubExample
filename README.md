@@ -45,7 +45,7 @@
  	<li>productos entrados - pantalla "Acciones de Productos"</li>
 	</ol>
 
-    ### Configuración
+### Configuración
 <ol>
  	<li>Entrada - sección Ristra - refactorizar labels</li>
 	</ol>
