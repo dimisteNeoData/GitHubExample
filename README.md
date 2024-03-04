@@ -1,24 +1,12 @@
-Q_SalaClasificar v1.04.58 - (20240129)
---------------------
-(Caso: TCK-20201-Y4V9)
+# NeoSala v2.7.160 (20240216) - WS_Default = v2.1.98 (EcoSistema NeoMeat: WS_Planta_v1.0.2.38) - NeoDataCoreDll = v1.1.0.84 - NeoDataSalaDll - 1.1.0.111	
 
-1. Nuevo
-  Repetir etiqueta de caja desde el WinForms "Lista de pesadas" - asignamos (mediante consultas SQL) sólo la posición de la caja en el pallet
-	, no de todas las pesadas que haya hechas (nos proporciona optimización de recursos)
-  Al cargar la partida => actualizar la lista de pesadas "Últimas pesadas"
-
-2. Modificar
-  Tras borrar y cerrar el WinForms de las lista de pesadas => actualizar la lista de pesadas "Últimas pesadas".
-  Registrar pesada manualmente => hacer consultas para asignar el número de caja en el pallet 
-
-Q_SalaClasificar v1.04.56 - (20240129)
---------------------
-(Caso: TCK-20111-D9Z5)
-
-1. Nuevo
-  Lista "Pallets en partida" - cerrar pallet (crear pallet y asociarlo a las pesadas (cajas))
-
-2. Modificar
-  Tras borrar una pesada de la lista "Últimas pesadas" 
-	=> actualizar la lista "Pallets en partida"
-  Lista de "Últimas pesadas" - actualizar información de últimas pesadas - mejoras 
+- Entrada (tablas NeoCore) 
+		Registrar pesada - insertar posibles coProductos en Neo_deshuese de acuerdo con el check "Emitir etiqueta orden" en: Sala - Configuración - Entrada
+		DesRegistrar pesada - eliminar posibles coProductos en Neo_deshuesede acuerdo con el check "Emitir etiqueta orden" en: Sala - Configuración - Entrada
+		Entrada - Imprimir etiqueta Ristra Original - añadir parámetros: usuario, terminal
+		Entrada - Imprimir etiqueta Ristra coProductos - añadir parámetros: usuario, terminal
+- Salida
+		PESADA - al hacer una pesada si esta en el rango de peso cambiar un producto por otro si esta habilitado la opcion producto generico y la formula tiene productos genericos	
+- Configuración
+		Datos Conexión - incorporar WS principal y WS Secundario
+		Salida - añadir opcion producto generico
