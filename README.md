@@ -1,6 +1,7 @@
 ## NeoSala v2.7.162 (20240229) - WS_Default = v2.1.102 (EcoSistema NeoMeat: WS_Planta_v1.0.2.40) - NeoDataCoreDll = v1.1.0.86 - NeoDataSalaDll - 1.1.0.113		
 
-### Recepción (muchos de los procesos recuperan los datos de las tablas NeoCore o directamente desde AX de acuerdo con el check: Configuración - Datos de conexión - Usar WS Planta. En un futuro iremos aplicando este cambio a todo el software aplicativo)
+### Recepción (muchos de los procesos recuperan los datos de las tablas NeoCore o directamente desde AX de acuerdo con el check: 
+Configuración - Datos de conexión - Usar WS Planta. En un futuro iremos aplicando este cambio a todo el software aplicativo)
 <ol>
  	<li>líneas - comprobar la obligatoriedad de las dimensiones de almacenamiento de acuerdo con: "Recepción en Blanco"</li>
  	<li>pantalla pesaje manual - Divisor - ajustes texto</li>
