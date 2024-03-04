@@ -12,4 +12,10 @@
 <ol>
  	<li>PESADA - al hacer una pesada si esta en el rango de peso cambiar un producto por otro si esta habilitado la opcion producto generico y la formula tiene productos genericos</li>
 	</ol>
+ 
+  - Configuración
+<ol>
+ 	<li>Datos Conexión - incorporar WS principal y WS Secundario</li>
+	<li>Salida - añadir opcion producto generico</li>
+	</ol>
 
