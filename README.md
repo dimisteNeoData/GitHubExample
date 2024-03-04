@@ -2,10 +2,10 @@
 
 - Entrada (tablas NeoCore)
   <p>
-	<ol>
- 	 <li>Elemento 1</li>
-  	<li>Elemento 2</li>
-  		...
-  	<li>Elemento N</li>
+  	<ol>
+ 	<li>Registrar pesada - insertar posibles coProductos en Neo_deshuese de acuerdo con el check "Emitir etiqueta orden" en: Sala - Configuración - Entrada</li>
+  	<li>DesRegistrar pesada - eliminar posibles coProductos en Neo_deshuesede acuerdo con el check "Emitir etiqueta orden" en: Sala - Configuración - Entrada</li>
+  	<li>Entrada - Imprimir etiqueta Ristra Original - añadir parámetros: usuario, terminal</li>
+	<li>Entrada - Imprimir etiqueta Ristra coProductos - añadir parámetros: usuario, terminal</li>
 	</ol>
   </p>
