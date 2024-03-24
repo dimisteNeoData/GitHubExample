@@ -9,9 +9,9 @@ namespace WinFormsApp1
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Mensaje1");
-			MessageBox.Show("Mensaje2");
-			MessageBox.Show("Mensaje3");
+			MessageBox.Show("Master1");
+			MessageBox.Show("Master1");
+			MessageBox.Show("Master1");
 		}
 	}
 }
