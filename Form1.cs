@@ -11,6 +11,7 @@ namespace WinFormsApp1
 		{
 			MessageBox.Show("Master1");
 			MessageBox.Show("Master1");
+			MessageBox.Show("Master1");
 		}
 	}
 }
