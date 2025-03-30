@@ -12,7 +12,6 @@ namespace WinFormsApp1
 			MessageBox.Show("Sexto");
 			MessageBox.Show("Septimo");
 			MessageBox.Show("Octavo");
-			MessageBox.Show("Noveno");
 		}
 	}
 }
