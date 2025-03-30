@@ -1,0 +1,25 @@
+name: Build and Test C# Solution
+
+on: [push, pull_request]  # Se ejecuta en cada push y pull request
+
+jobs:
+  build:
+    runs-on: windows-latest  # Usamos un runner con Windows
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3  # Obtiene el código fuente
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 8.0.x  # Ajusta a la versión que uses
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Build Solution
+        run: dotnet build --configuration Release --no-restore  # Compila la solución
+
+      - name: Run Tests
+        run: dotnet test --no-build --verbosity normal  # Ejecuta pruebas si hay
