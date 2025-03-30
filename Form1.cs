@@ -14,8 +14,8 @@ namespace WinFormsApp1
 			MessageBox.Show("9");
 			MessageBox.Show("10");
 			MessageBox.Show("11");
-			MessageBox.Show("12"); 
-			MessageBox.Show("13")
+			MessageBox.Show("12");
+			MessageBox.Show("13");
 		}
 	}
 }
